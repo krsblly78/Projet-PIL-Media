@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PILMEDIA - Agence Tech</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="logo">PILMEDIA</div>
+    <nav class="nav">
+      <a href="#home">Accueil</a>
+      <a href="#about">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#formations">Formations</a>
+      <a href="#projects">Réalisations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="media/tech-background.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <h1>Transformez vos idées en solutions digitales</h1>
+      <p>Développement sur-mesure, design futuriste & expérience immersive</p>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="about" class="section">
+    <h2>À propos de PILMEDIA</h2>
+    <p>Une équipe créative et technique à votre service. Spécialistes en développement web, mobile et UX/UI design.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h2>Nos Services</h2>
+    <div class="grid">
+      <div class="card">Développement Web</div>
+      <div class="card">Applications Mobiles</div>
+      <div class="card">Design UI/UX</div>
+      <div class="card">Consulting & Audit</div>
+    </div>
+  </section>
+
+  <!-- Formations -->
+  <section id="formations" class="section">
+    <h2>Formations</h2>
+    <div class="grid">
+      <div class="card">Initiation au NoCode</div>
+      <div class="card">Création de site WordPress</div>
+      <div class="card">Développement Web JS/PHP</div>
+    </div>
+  </section>
+
+  <!-- Réalisations -->
+  <section id="projects" class="section">
+    <h2>Réalisations</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="image/Logo Original.png" alt="Projet 1">
+        <p>Site vitrine - Vue.js / Laravel</p>
+      </div>
+      <!-- autres projets -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Nom" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Téléphone" />
+      <input type="text" placeholder="Nom de l’entreprise" />
+      <textarea placeholder="Message"></textarea>
+      <input type="file" />
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer avec géolocalisation -->
+  <footer>
+    <div id="map"></div>
+    <p>&copy; 2025 PILMEDIA - Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
