@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PILMEDIA - Agence Tech</title>
-  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="/Animation_essaie/css/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
@@ -24,13 +24,25 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <video autoplay muted loop id="bg-video">
-      <source src="media/tech-background.mp4" type="video/mp4" />
+    <div class="pov">
+      <div class="tray">
+        <div class="die">
+          <div class="cube">
+            <div class="face" style="font-size:60px">CODE</div>
+            <div class="face" style="font-size:58px">DRIVEN</div>
+            <div class="face" style="font-size:55px">ANIMATION</div>      
+          </div>
+        </div>  
+        <!-- clones will go here -->
+      </div>
+    </div>
+    <!--<video autoplay muted loop id="bg-video">
+      <source src="image/0_Earth_Space_3840x2160.mp4" type="video/mp4" />
     </video>
     <div class="hero-content">
       <h1>Transformez vos idées en solutions digitales</h1>
       <p>Développement sur-mesure, design futuriste & expérience immersive</p>
-    </div>
+    </div>-->
   </section>
 
   <!-- À propos -->
@@ -68,6 +80,22 @@
         <img src="image/Logo Original.png" alt="Projet 1">
         <p>Site vitrine - Vue.js / Laravel</p>
       </div>
+      <div class="project">
+        <img src="image/3d-abstract-space-background-with-wireframe-landscape.jpg" alt="Projet 1">
+        <p>Site vitrine - Vue.js / Laravel</p>
+      </div>
+      <div class="project">
+        <img src="image/beautiful-view-stars-night-sky.jpg" alt="Projet 1">
+        <p>Site vitrine - Vue.js / Laravel</p>
+      </div>
+      <div class="project">
+        <img src="image/cosmic-nebula-with-stars-gas-clouds.jpg" alt="Projet 1">
+        <p>Site vitrine - Vue.js / Laravel</p>
+      </div>
+      <div class="project">
+        <img src="image/Logo Original.png" alt="Projet 1">
+        <p>Site vitrine - Vue.js / Laravel</p>
+      </div>
       <!-- autres projets -->
     </div>
   </section>
@@ -91,6 +119,7 @@
     <div id="map"></div>
     <p>&copy; 2025 PILMEDIA - Tous droits réservés.</p>
   </footer>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="/Animation_essaie/js/code_driven_animation.js"></script>
 </body>
 </html>
